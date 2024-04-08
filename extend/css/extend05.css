@@ -1,7 +1,6 @@
 /* 
-Style sheet created by: 
-Student's Name 
-Today's Date 
+Style sheet created by: kevin bolanos
+Today's Date: 04/05/24
 */
 body {
     background-color: #dde3fd;
@@ -22,12 +21,30 @@ body {
 }
 
 /* sticky */
-
+.sticky{
+    position: sticky;
+    position: -webkit-sticky
+    top: 50;
+}
 
 /* relative */
 
+.relative{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
 
 /* fixed */
-
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
 
 /* absolute */
+.absolute{
+    position: absolute;
+    bottom: 50px;
+    right:  50px;
+}

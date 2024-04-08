@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../analyze"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../extend"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "apply"
+	}
+}

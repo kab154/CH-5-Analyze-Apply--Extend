@@ -11,6 +11,27 @@ body, header, nav, main, footer, h1, div, img, ul {
 body {
 	background-color: #e4f1f6;
 }
+image{
+    max-width: 100%;
+    display: block;
+}
+
+
+/*Style rule for mobile viewport*/
+
+.corner{
+    border-radius: 12px;
+}
+
+
+
+/*Style rule to hide - desk class*/
+
+.tablet-desk{
+    display: none;
+}
+
+
 
 /* Style rule for header */
 header {
@@ -26,15 +47,21 @@ nav {
 	padding: 1%;
     margin-bottom: 1%;
     background-color: #67afcb;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 nav ul {
     text-align: center;
+    list-style-type: none;
 }
 
 nav li {
     font-size: 1.5em;
     padding: 4%;
+    display: inline-block;
+    font-family: 'B612';sans-serif;
 }
 
 nav li a {
@@ -49,10 +76,13 @@ main {
 	margin: 1% 1% 15%;
 	padding: 1%;
     font-size: 1.5em;
+    font-family: 'crimson text'; serif;
 }
 
 #image {
     margin-bottom: 1%;
+    width: 100;
+    display: block;
 }
 
 /* Style rule for footer */
@@ -61,3 +91,8 @@ footer {
 	text-align: center;
 	margin-top: 2em;
 }
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
